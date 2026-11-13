@@ -1,0 +1,34 @@
+{
+  "method": "Offline 2-state forward slice of Lecture 11A/11B; leave-one-run-out command/wheel-only Q,R calibration; camera evaluation only",
+  "n_runs": 10,
+  "uncorrected_mae_m": 0.034954846406121995,
+  "corrected_mae_m": 0.03506446569887691,
+  "uncorrected_rmse_m": 0.039918802625949115,
+  "corrected_rmse_m": 0.03964709129417825,
+  "matched_wheel_mae_m": 0.034827002502117496,
+  "matched_wheel_rmse_m": 0.03917275743300678,
+  "original_velocity_rmse_pooled_mps": 0.02006055468582435,
+  "corrected_velocity_rmse_pooled_mps": 0.019187942113100067,
+  "original_trajectory_rmse_run_mean_m": 0.03018974506021683,
+  "corrected_trajectory_rmse_run_mean_m": 0.030604166997488535,
+  "mean_corrected_minus_matched_wheel_m": -0.00015261060591196252,
+  "mean_original_minus_matched_wheel_m": 0.0005114672273665022,
+  "uncorrected_signed_mean_m": -0.029459174166667258,
+  "corrected_signed_mean_m": -0.03012325199994579,
+  "paired_mae_improvement_m": -0.00010961929275491254,
+  "paired_improvement_95ci_m": [
+    -0.002291846982197891,
+    0.002072608396688066
+  ],
+  "runs_improved": 5,
+  "mean_velocity_gain": 0.9247222127538353,
+  "mean_position_gain_s": 0.007888698137006411,
+  "wheel_std_range_mps": [
+    0.007762875447020247,
+    0.007762875447020247
+  ],
+  "accel_std_range_mps2": [
+    0.239996530244663,
+    0.26315484756815977
+  ]
+}

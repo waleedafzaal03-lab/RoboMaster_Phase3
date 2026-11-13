@@ -1,0 +1,58 @@
+{
+  "new_runs": 10,
+  "velocity_pairs": 1374,
+  "camera_travel_mean_m": 1.4744063273172368,
+  "wheel_travel_mean_m": 1.444947153150569,
+  "endpoint_error_mean_m": -0.029459174166667303,
+  "endpoint_error_sd_m": 0.028395380307121302,
+  "endpoint_error_95ci_mean_m": [
+    -0.04977200556702994,
+    -0.009146342766304667
+  ],
+  "endpoint_error_rmse_m": 0.03991880262594916,
+  "endpoint_error_mae_m": 0.03495484640612205,
+  "endpoint_error_percent_of_camera_mean": -1.9751702110623233,
+  "odom_endpoint_error_mean_m": -0.03197869865005831,
+  "wheel_minus_odom_mean_m": 0.0025195244833910112,
+  "velocity_error_mean_mps": -0.0026581611315955374,
+  "velocity_error_rmse_mps": 0.02006055468582435,
+  "within_run_covariance_m2ps": -2.138730797378436e-05,
+  "within_run_correlation": -0.06015436905649125,
+  "prior_phase3_raw_mae_m": 0.052493145722804835,
+  "prior_phase3_filtered_mae_m": 0.03964184009510887,
+  "prior_phase3_paired_mae_change_m": 0.012851305627695963,
+  "prior_phase3_gain_95ci_mean_m": [
+    0.0063048277339571865,
+    0.01939778352143474
+  ],
+  "prior_phase3_runs_improved": 9,
+  "speed_bands": {
+    "low_command_at_most_0.07_mps": {
+      "pairs": 751,
+      "velocity_rmse_mps": 0.020580706366115507,
+      "position_rmse_m": 0.035995809407946534
+    },
+    "normal_command_above_0.07_mps": {
+      "pairs": 623,
+      "velocity_rmse_mps": 0.019415018447548726,
+      "position_rmse_m": 0.02719509946202282
+    }
+  },
+  "smoothing_sensitivity": {
+    "7": {
+      "velocity_rmse_mps": 0.02438988488041809,
+      "within_run_cov_m2ps": -2.4361616333026915e-05,
+      "pairs": 1438
+    },
+    "11": {
+      "velocity_rmse_mps": 0.02006055468582435,
+      "within_run_cov_m2ps": -2.138730797378436e-05,
+      "pairs": 1374
+    },
+    "15": {
+      "velocity_rmse_mps": 0.01816130477689106,
+      "within_run_cov_m2ps": -2.130814720977253e-05,
+      "pairs": 1312
+    }
+  }
+}
